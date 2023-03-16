@@ -1,2 +1,2 @@
 # gfylitter
-a rudimentary python script to dump gfy links since its (allegedly) about to go offline
+a rudimentary work in progress python script to dump gfy links since its (allegedly) about to go offline
