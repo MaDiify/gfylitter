@@ -12,7 +12,7 @@ the scripts DO NOT download files they only dump links, use a download manager t
 ## What you need
 - some sort of programming knowledge to follow the instructions and mainly to clown on me for how badly written this thing is (i was in a hurry)
 - python 3
-- dependencies should just be requests and json, look them up on pypi
+- dependencies to download: only "requests"
 - gfycat account and gfycat developer API key
 
 ## Quick walkthrough
