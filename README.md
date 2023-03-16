@@ -10,7 +10,7 @@ the scripts DO NOT download files they only dump links, use a download manager t
 - Why are there duplicate links? dont worry about it, the links are all there, your download manager will do the hard part
 
 ## What you need
-- some sort of programming knowledge to follow the instructions and mainly to clown on me for how badly written this thing is (i was in a hurry)
+- some sort of programming knowledge to follow the instructions and mainly to clown on me for how badly written this thing is (i was in a hurry to backup my stuff)
 - python 3
 - dependencies to download: only "requests"
 - gfycat account and gfycat developer API key
