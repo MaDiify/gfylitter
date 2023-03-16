@@ -1,6 +1,13 @@
 # gfylitter
-2 rudimentary wip python script to dump your gfycat links since the service stopped accepting uploads and is (allegedly) about to go offline.
-the scripts DO NOT download files they only dump links, use a download manager to get your videos
+2 rudimentary python script to dump your gfycat links since the service stopped accepting uploads and is (allegedly) about to go offline, which means that if in the process they block access to their API these scripts will become useless.
+the scripts DO NOT download files they only dump links, use a download manager to get your videos (JDownloader 2 is a good one, some people use internet download manager too)
+
+## What do the scripts do exactly?
+- collection_scraper dumps in a text file every collection and giant.gfycat link inside it
+- user_scraper dumps every single giant.gfycat link uploaded to your account in a text file, public or private, published or unpublished
+
+- Why are you dumping giant.gfycat links and not just www.gfycat links? www.gfycat links have cloudflare ddos protection, giant.gfycat dont. 
+- Why are there duplicate links? dont worry about it, the links are all there, your download manager will do the hard part
 
 ## What you need
 - some sort of programming knowledge to follow the instructions and mainly to clown on me for how badly written this thing is (i was in a hurry)
@@ -14,8 +21,8 @@ GFYCAT DEVELOPER SECTION:
 - Copy your Client id and Secret from the email and place them where it says to do so inside the script you want to use
 
 SCRIPT SECTION:
-- Go to: "https://gfycat.com/oauth/authorize?client_id={{CLIENTIDHERE}}&scope=all&state=test&response_type=code&redirect_uri=http://localhost" and allow access
-- You'll reach a dead page (unless you have a web server running in which case you might want to turn it off) which is intended. you must copy whatever string of characters you see on the address bar between the word "code=" and the "&" symbol
+- Go to: "https://gfycat.com/oauth/authorize?client_id={{CLIENTIDHERE}}&scope=all&state=test&response_type=code&redirect_uri=http://localhost", replacing {{CLIENTIDHERE}} with your client id and allow access to the script
+- You'll reach a dead page (unless you have a web server running in which case you might want to turn it off) which is intended. You must copy whatever string of characters you see on the address bar between the word "code=" and the "&" symbol
 - Paste the string of characters you just got inside the script you want to use, replacing {insertoauthcode}
 - repeat these steps everytime you want to use the script
 
