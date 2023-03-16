@@ -3,7 +3,7 @@
 the scripts DO NOT download files they only dump links, use a download manager to get your videos (JDownloader 2 is a good one, some people use internet download manager too)
 
 ## What do the scripts do exactly?
-- collection_scraper dumps in a text file every collection and giant.gfycat link inside it
+- collection_scraper dumps in a text file every collection and giant.gfycat link inside it, your collections must not have any quotation mark or double quotation mark in them (") (')
 - user_scraper dumps every single giant.gfycat link uploaded to your account in a text file, public or private, published or unpublished
 
 - Why are you dumping giant.gfycat links and not just www.gfycat links? www.gfycat links have cloudflare ddos protection, giant.gfycat dont. 
