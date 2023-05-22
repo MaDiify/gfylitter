@@ -25,6 +25,6 @@ SCRIPT SECTION:
 - You'll reach a dead page (unless you have a web server running in which case you might want to turn it off) which is intended. You must copy whatever string of characters you see on the address bar between the word "code=" and the "&" symbol
 - Paste the string of characters you just got inside the script you want to use, replacing {insertoauthcode}
 - open a terminal window in the /scripts folder and just type python the_script_you_wanna_use.py
-- repeat these steps everytime you want to use the script
+- repeat the script section steps everytime you want to use the script
 
 GOOD LUCK
