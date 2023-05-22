@@ -2,8 +2,6 @@
 2 rudimentary python script to dump your gfycat links since the service stopped accepting uploads and is (allegedly) about to go offline, which means that if in the process they block access to their API these scripts will become useless.
 the scripts DO NOT download files they only dump links, use a download manager to get your videos (JDownloader 2 is a good one, some people use internet download manager too)
 
-## AS OF MAY 18th 2023 GFYCAT's HTTPS CERT HAS EXPIRED, THE SITE AND API ARE NO LONGER ACCESSIBLE THEREFORE THESE SCRIPTS DO NOT WORK ANYMORE
-
 ## What do the scripts do exactly?
 - collection_scraper dumps in a text file every collection and giant.gfycat link inside it, your collections must not have any quotation mark or double quotation mark in them (") (')
 - user_scraper dumps every single giant.gfycat link uploaded to your account in a text file, public or private, published or unpublished
